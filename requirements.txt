@@ -1,17 +1,18 @@
-dnspython
-feedparser
-Flask==2.2.5
-gitpython
-gunicorn
-heroku3
-psycopg2-binary
-pyrogram
+# --- For-Bot-Working --------- #
+git+https://github.com/KurimuzonAkuma/pyrogram
+TgCrypto
+pyromod
+# --- For-Database ------------ #
 pymongo
-python-dotenv
-Pyromod==1.5
+motor
+umongo
+dnspython
+marshmallow
+# --- For-Web-Response ------- #
 pytz
 requests
-speedtest-cli
-sqlalchemy==1.3.23
-TgCrypto
-wget
+bs4
+shortzy
+aiohttp
+aiofiles
+asyncio
