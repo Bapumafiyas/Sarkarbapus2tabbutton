@@ -11,16 +11,16 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7226830421:AAEqsQRwGnG6JGKmV_ihi3YnhCYO6w054m0")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7210056748:AAFbRKFkl3XOrDIjCzZS7xqdzBHnEzV0OWw")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "22097032"))
+APP_ID = int(os.environ.get("APP_ID", "20170562"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "7bfda6a8df5abca96e5269e90a8c5c5f")
+API_HASH = os.environ.get("API_HASH", "56aa61b4d1198329f24c1602eb3f73d4")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001469359304"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002052438967"))
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -40,7 +40,7 @@ MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://Mscmafiacorporation:<8Tdh
 MONGO_NAME = os.environ.get("MONGO_NAME", "filesbyjbls")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002239557483")) 
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001992105804")) 
 FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001559911506"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
