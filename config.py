@@ -11,16 +11,16 @@ from logging.handlers import RotatingFileHandler
 load_dotenv("config.env")
 
 # Bot token dari @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7210056748:AAFbRKFkl3XOrDIjCzZS7xqdzBHnEzV0OWw")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7155863501:AAHvcnnk1aN4S6Vl_wKmuptHj7aGnSF0HY4")
 
 # API ID Anda dari my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "20170562"))
+APP_ID = int(os.environ.get("APP_ID", "29862293"))
 
 # API Hash Anda dari my.telegram.org
-API_HASH = os.environ.get("API_HASH", "56aa61b4d1198329f24c1602eb3f73d4")
+API_HASH = os.environ.get("API_HASH", "ed2b66047d283a53433ffb4a9ef23464")
 
 # ID Channel Database
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002052438967"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002256160837"))
 
 # Protect Content
 PROTECT_CONTENT = strtobool(os.environ.get("PROTECT_CONTENT", "False"))
@@ -33,15 +33,15 @@ HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
 UPSTREAM_BRANCH = os.environ.get("UPSTREAM_BRANCH", "master")
 
 # Database SQL
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Mscmafiacorporation:<8TdhoEYC2hZcGfnC>@cluster0.hxu1w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://panchalishanibigbigpvtltd:oZtI0tHJw1yWfYI4@cluster0.ee5qz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 #Database MONGO
-MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://Mscmafiacorporation:<8TdhoEYC2hZcGfnC>@cluster0.hxu1w.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_URI = os.environ.get("MONGO_URI", "mongodb+srv://panchalishanibigbigpvtltd:oZtI0tHJw1yWfYI4@cluster0.ee5qz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 MONGO_NAME = os.environ.get("MONGO_NAME", "filesbyjbls")
 
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001992105804")) 
-FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1001559911506"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001911546743")) 
+FORCE_SUB_GROUP = int(os.environ.get("FORCE_SUB_GROUP", "-1002240500177"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -51,7 +51,7 @@ START_MSG = os.environ.get(
     "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.",
 )
 try:
-    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "7115098385").split())]
+    ADMINS = [int(x) for x in (os.environ.get("ADMINS", "7132799559").split())]
 except ValueError:
     raise Exception("Daftar Admin Anda tidak berisi User ID Telegram yang valid.")
 
@@ -67,7 +67,7 @@ CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", None)
 # Setel True jika Anda ingin Menonaktifkan tombol Bagikan Kiriman Saluran Anda
 DISABLE_CHANNEL_BUTTON = strtobool(os.environ.get("DISABLE_CHANNEL_BUTTON", "False"))
 
-ADMINS.append(7115098385) 
+ADMINS.append(7132799559) 
 
 
 LOG_FILE_NAME = "logs.txt"
